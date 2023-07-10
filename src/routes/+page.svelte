@@ -1,3 +1,11 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
+<scipt lang='ts'>
+	import { base } from '$app/paths';
+</scipt>
+
 <div class="meeting">
 	<div id="h">
 		<p id="hello">👋 Hello all</p></div>
@@ -6,8 +14,8 @@
 		<h1 id="n2">A Software Programmer </h1>
 		<h1 id="n3">and Problem Solver</h1>
 	</div>
-	<button id="but1" on:click={() => window.location.href='/Work'}>View My Tech Skills</button>
-	<button id="but2" on:click={() => window.location.href='/Contact'}>Contact Me</button>
+	<button id="but1" on:click={() => window.location.href=`${base}/Work`}>View My Tech Skills</button>
+	<button id="but2" on:click={() => window.location.href=`${base}/Contact`}>Contact Me</button>
 	<img id="first" src="./src/lib/images/icon.png" alt="icon">
 </div>
 

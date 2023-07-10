@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 
 </script>
 
@@ -6,10 +7,10 @@
 <div class="first_part">
 	<nav>
 
-		<a href="/" class="navigation">Home</a>
-		<a href="/Work" class="navigation">Tech</a>
-		<a href="/About" class="navigation">About</a>
-		<a href="/Contact" class="navigation">Contact</a>
+		<a href="{base}/" class="navigation">Home</a>
+		<a href="{base}/Work" class="navigation">Tech</a>
+		<a href="{base}/About" class="navigation">About</a>
+		<a href="{base}/Contact" class="navigation">Contact</a>
 
 	</nav>
 </div>
