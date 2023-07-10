@@ -1,7 +1,6 @@
 <script>
 
-  export let title: null;
-  export let info: null;
+  export let title, info;
 </script>
 
 <div class="cont">
