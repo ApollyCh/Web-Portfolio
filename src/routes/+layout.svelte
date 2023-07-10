@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import '../styles.css';
+	// import '../styles.css';
 </script>
 
 <div class="first_part">
