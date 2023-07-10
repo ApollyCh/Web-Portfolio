@@ -1,23 +1,19 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	export const trailingSlash = 'always';
-
+	import '../styles.css';
 </script>
-
 
 <div class="first_part">
 	<nav>
-
 		<a href="{base}/" class="navigation">Home</a>
 		<a href="{base}/Work" class="navigation">Tech</a>
 		<a href="{base}/About" class="navigation">About</a>
 		<a href="{base}/Contact" class="navigation">Contact</a>
-
 	</nav>
 </div>
-<slot/>
-<style>
+<slot />
 
+<style>
 	.first_part {
 		box-shadow: 0 4px 4px #ffdfdf;
 		position: fixed;
@@ -26,7 +22,7 @@
 		padding-bottom: 20px;
 		z-index: 999;
 		width: 100%;
-		background-color:#ffeed9;
+		background-color: #ffeed9;
 	}
 
 	nav {
@@ -36,12 +32,11 @@
 		margin-left: 100px;
 	}
 
-
 	.navigation {
 		color: #403930;
 		font-family: 'Work Sans', sans-serif;
 		border: 0;
-		background-color:#ffeed9;
+		background-color: #ffeed9;
 		text-decoration: none;
 		margin-right: 50px;
 	}
@@ -51,5 +46,4 @@
 		cursor: pointer;
 		z-index: 100;
 	}
-
 </style>

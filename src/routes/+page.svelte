@@ -1,48 +1,45 @@
-<script>
+<script lang="ts">
 	import { base } from '$app/paths';
+	import iconSrc from '$lib/images/icon.png';
 </script>
-
-<scipt lang='ts'>
-	import { base } from '$app/paths';
-</scipt>
 
 <div class="meeting">
 	<div id="h">
-		<p id="hello">👋 Hello all</p></div>
+		<p id="hello">👋 Hello all</p>
+	</div>
 	<div class="aboutMe">
 		<h1 id="n1">I'm Apollinaria,</h1>
-		<h1 id="n2">A Software Programmer </h1>
+		<h1 id="n2">A Software Programmer</h1>
 		<h1 id="n3">and Problem Solver</h1>
 	</div>
-	<button id="but1" on:click={() => window.location.href=`${base}/Work`}>View My Tech Skills</button>
-	<button id="but2" on:click={() => window.location.href=`${base}/Contact`}>Contact Me</button>
-	<img id="first" src="./src/lib/images/icon.png" alt="icon">
+	<button id="but1" on:click={() => (window.location.href = `${base}/Work`)}
+		>View My Tech Skills</button
+	>
+	<button id="but2" on:click={() => (window.location.href = `${base}/Contact`)}>Contact Me</button>
+	<img id="first" src={iconSrc} alt="icon" />
 </div>
 
 <style>
-	#h{
+	#h {
 		width: 179px;
 		height: 60px;
-		background-color: #FFDDBF;
+		background-color: #ffddbf;
 		border-radius: 10px;
 		text-align: center;
 		position: relative;
 		top: 130px;
-
 	}
 	h1 {
-		position:absolute;
+		position: absolute;
 	}
 
 	#hello {
-
 		font-family: 'Work Sans', sans-serif;
 		position: relative;
 		top: 14px;
 		margin-right: auto;
 		margin-left: auto;
 		font-size: 20px;
-
 	}
 	h1 {
 		font-family: 'Eczar', serif;
@@ -67,7 +64,7 @@
 		width: 270px;
 		height: 84px;
 		border-radius: 16px;
-		background-color: #4E5E80;
+		background-color: #4e5e80;
 		border: 0;
 		font-family: 'Work Sans', sans-serif;
 		font-size: 24px;
@@ -85,7 +82,7 @@
 		outline: none;
 		font-family: 'Work Sans', sans-serif;
 		font-size: 24px;
-		color:#4E5E80;
+		color: #4e5e80;
 		position: absolute;
 		top: 450px;
 		left: 300px;
