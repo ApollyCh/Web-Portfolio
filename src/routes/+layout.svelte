@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	// import '../styles.css';
 </script>
 
+<meta name="author" content="Apollinaria Chernikova" />
 <div class="first_part">
 	<nav>
 		<a href="{base}/" class="navigation">Home</a>
@@ -28,7 +28,6 @@
 	nav {
 		display: flex;
 		flex-direction: row;
-		/*padding-top: 20px;*/
 		margin-left: 100px;
 	}
 

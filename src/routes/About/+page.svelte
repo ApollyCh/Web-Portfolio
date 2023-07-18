@@ -3,6 +3,9 @@
 	import Icon from '$lib/images/icon2.png';
 </script>
 
+<title>About Me</title>
+<meta name="description" content="Some information about me" />
+
 <div class="all-component">
 	<div class="aboutMePart">
 		<h1>Some Facts about me</h1>
@@ -55,6 +58,7 @@
 		flex-direction: column;
 		margin-top: 20px;
 	}
+
 	h3 {
 		font-family: 'Work Sans', sans-serif;
 		font-size: 32px;
@@ -75,11 +79,13 @@
 		margin-right: auto;
 		top: 10%;
 	}
+
 	p {
 		font-family: 'Eczar', serif;
 		font-size: 24px;
 		color: #403930;
 	}
+
 	.aboutMePart {
 		opacity: 100%;
 		width: 100%;
@@ -170,6 +176,7 @@
 		position: relative;
 		margin-top: 110px;
 	}
+
 	#meme {
 		margin-left: auto;
 		margin-right: auto;

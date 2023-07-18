@@ -1,8 +1,7 @@
 <script lang="ts">
-
-	let title: string
-	let info: string
-	export {title, info}
+	let title: string;
+	let info: string;
+	export { title, info };
 </script>
 
 <div class="cont">

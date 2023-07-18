@@ -5,6 +5,9 @@
 	import Tel from '$lib/images/telegram.png';
 </script>
 
+<title> Contact </title>
+<meta name="description" content="The ways how ypu can connect with me" />
+
 <div class="end">
 	<div class="container">
 		<h1 id="n4">Let's work together and make everything super cute and super useful.</h1>

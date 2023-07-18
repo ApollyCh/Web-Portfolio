@@ -18,6 +18,9 @@
 	});
 </script>
 
+<title>Comic page</title>
+<meta name="description" content="Funny picture haha" />
+
 <h1>XKCD Comics</h1>
 
 {#if comic}

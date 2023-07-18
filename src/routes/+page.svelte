@@ -3,6 +3,11 @@
 	import iconSrc from '$lib/images/icon.png';
 </script>
 
+<title>Home Page</title>
+<meta
+	name="description"
+	content="Hi! Im Apollinaria. Nice to meet you. This is my Portfolio WebSite"
+/>
 <div class="meeting">
 	<div id="h">
 		<p id="hello">👋 Hello all</p>
@@ -13,8 +18,8 @@
 		<h1 id="n3">and Problem Solver</h1>
 	</div>
 	<button id="but1" on:click={() => (window.location.href = `${base}/Work`)}
-		>View My Tech Skills</button
-	>
+		>View My Tech Skills
+	</button>
 	<button id="but2" on:click={() => (window.location.href = `${base}/Contact`)}>Contact Me</button>
 	<img id="first" src={iconSrc} alt="icon" />
 </div>
@@ -29,6 +34,7 @@
 		position: relative;
 		top: 130px;
 	}
+
 	h1 {
 		position: absolute;
 	}
@@ -41,6 +47,7 @@
 		margin-left: auto;
 		font-size: 20px;
 	}
+
 	h1 {
 		font-family: 'Eczar', serif;
 		color: #403930;
